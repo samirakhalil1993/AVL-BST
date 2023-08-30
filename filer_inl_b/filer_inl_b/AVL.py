@@ -1,5 +1,3 @@
-# ks amk>ddddddddddddddddddddddddddddddddd
-
 class AVL:
     class Node:
         def __init__(self):
@@ -14,16 +12,11 @@ class AVL:
         pass
 
     def insert(self, element):
-        new_node =self.Node()
-        new_node.data = element 
-        if self._root is None:
-            self._root = new_node
-            return
-        
+        pass
 
     def remove(self, element):
         pass
-
+        
     def find(self, element):
         pass
 
