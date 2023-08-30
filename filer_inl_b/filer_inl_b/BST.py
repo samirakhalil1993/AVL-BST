@@ -11,7 +11,24 @@ class BST:
         pass
 
     def insert(self, element):
-        pass
+        new_node =self.Node()
+        new_node.data = element 
+        if self._root is None:
+            self._root = new_node
+            return
+        
+        # söker reda på var noden ska stoppas in _ iterative lösning 
+        current = self._root
+        while current != None:
+            parent = current 
+            if element < current.data:
+                current = current.left
+            else:
+                current = current.right 
+        if element < parent.data:
+            parent.left = new_node
+        else:
+            parent.right = new_node
 
     def remove(self, element):
         pass
