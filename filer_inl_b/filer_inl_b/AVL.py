@@ -12,30 +12,46 @@ class AVL:
         pass
 
     def insert(self, element):
+        """L ̈agger till ett element i tr ̈adet.
+        Inga duplicerade element skall till ̊atas."""
         pass
 
     def remove(self, element):
+        """Tar bort det efterfr ̊agade elementet
+        i trädet om det finns."""
         pass
         
     def find(self, element):
+        """Letar upp det efterfr ̊agade elementet
+        i tr ̈adet. Returnerar True om det finns, False om det inte finns."""
         pass
 
     def pre_order_walk(self):
+        """Traverserar tr ̈adet enligt principen pre
+        order och l ̈agger till varje nods v ̈arde i listan."""
         pass
 
     def in_order_walk(self):
+        """Traverserar tr ̈adet enligt principen in
+        order och l ̈agger till varje nods v ̈arde i listan."""
         pass
 
     def post_order_walk(self):
+        """Traverserar tr ̈adet enligt principen post
+        order och l ̈agger till varje nods v ̈arde i listan."""
         pass
 
     def get_tree_height(self):
+        """Returnerar h ̈ojden p ̊a tr ̈adet. Om tr ̈adet
+         ̈ar tomt returnerar ni -1."""
         pass
 
     def get_min(self):
+        """Returnerar det minsta v ̈ardet i tr ̈adet."""
         pass
 
     def get_max(self):
+        """Returnerar det st ̈orsta v ̈ardet i tr ̈adet."""
         pass
 
     def to_graphviz_rec(self, data, current):
