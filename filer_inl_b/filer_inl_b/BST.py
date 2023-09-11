@@ -203,30 +203,31 @@ class BST:
         return data
 
 
-    def main():
-        # Skapa en instans av BST
-        bst = BST()
+def main():
+    # Skapa en instans av BST
+    bst = BST()
 
-        # Lägg till några element i trädet
-        bst.insert(5)
-        bst.insert(3)
-        bst.insert(7)
-        bst.insert(2)
-        bst.insert(4)
-        bst.insert(6)
-        bst.insert(8)
+    # Lägg till några element i trädet
+    bst.insert(5)
+    bst.insert(3)
+    bst.insert(7)
+    bst.insert(2)
+    bst.insert(4)
+    bst.insert(6)
+    bst.insert(8)
 
-        # Utför olika operationer och skriv ut resultaten
-        print("In-order traversal:", bst.in_order_walk())
-        print("Post-order traversal:", bst.post_order_walk())
-        print("Tree height:", bst.get_tree_height())
-        print("Min value:", bst.get_min())
-        print("Max value:", bst.get_max())
-        print("Is 4 in the tree?", bst.find(4))
-        print("Is 9 in the tree?", bst.find(9))
+    # Utför olika operationer och skriv ut resultaten
+    print("In-order traversal:", bst.in_order_walk())
+    print("Post-order traversal:", bst.post_order_walk())
+    print("Tree height:", bst.get_tree_height())
+    print("Min value:", bst.get_min())
+    print("Max value:", bst.get_max())
+    print("Is 4 in the tree?", bst.find(4))
+    print("Is 9 in the tree?", bst.find(9))
+    print(bst.to_graphviz())
 
-    
 
 
-    if __name__ == '__main__':
-        main()
+
+if __name__ == '__main__':
+    main()
