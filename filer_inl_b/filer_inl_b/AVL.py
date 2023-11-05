@@ -12,7 +12,7 @@ class AVL:
         pass
 
     def insert(self, element):
-        """L ̈agger till ett element i tr ̈adet.
+        """L ̈agger till ett element i tradet.
         Inga duplicerade element skall till ̊atas."""
         self._root = self._insert_rec(self._root, element)
     
